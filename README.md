@@ -1,0 +1,3 @@
+# useEffect Hook Causes Unexpected Re-renders in React
+
+This repository demonstrates a common issue with the `useEffect` hook in React: unexpected re-renders due to missing dependencies in the dependency array.  The `useEffect` hook runs after every render, which, if not properly managed, can lead to performance issues and unexpected behavior.  This example shows how to fix the issue by correctly specifying the dependencies.
